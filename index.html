@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<title>プライバシーポリシー｜goen（ご縁）</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.8; margin: 0; color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } a { color: #6db3ff; } }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 2.2em 0 0.4em; padding-top: 0.2em; border-top: 1px solid rgba(127,127,127,.25); }
+  h2:first-of-type { border-top: 0; }
+  .meta { color: #8a8a8e; font-size: .9rem; margin-bottom: 1.6em; }
+  ul { padding-left: 1.2em; }
+  li { margin: .3em 0; }
+  table { border-collapse: collapse; width: 100%; margin: .6em 0; font-size: .95rem; }
+  th, td { border: 1px solid rgba(127,127,127,.3); padding: 8px 10px; text-align: left; vertical-align: top; }
+  .note { font-size: .9rem; color: #8a8a8e; }
+  code { background: rgba(127,127,127,.15); padding: 0 .3em; border-radius: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>プライバシーポリシー</h1>
+<p class="meta">goen（ご縁）／株式会社NEXASPARK<br>制定日：2026年6月12日　最終更新日：2026年6月12日</p>
+
+<p>株式会社NEXASPARK（以下「当社」）は、当社が提供するモバイルアプリ「goen（ご縁）」（以下「本サービス」）における利用者の情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。</p>
+
+<h2>1. 基本方針</h2>
+<p>本サービスは「近くに居合わせた人とその場でつながる」体験を、<strong>必要最小限の情報</strong>で提供することを設計の根幹としています。当社は、本人を直接特定する情報（氏名・電話番号・メールアドレス）や正確な位置座標を原則として取得しません。</p>
+
+<h2>2. 取得しない情報</h2>
+<ul>
+  <li><strong>氏名・電話番号・メールアドレス</strong>：「Appleでサインイン」利用時に氏名・メールの提供を求めません。</li>
+  <li><strong>正確な位置座標（緯度・経度）</strong>：端末内で粗い区画（ジオハッシュ。約150m四方）に丸めた値のみを送信し、正確な座標は端末外に送信・保存しません。</li>
+  <li><strong>メッセージの本文</strong>：メッセージは端末間でエンドツーエンド暗号化されます。当社のサーバや通信経路上で本文を復号・閲覧することはできません。</li>
+  <li><strong>広告・行動追跡のためのトラッキング</strong>：第三者広告SDKや、アプリをまたいで利用者を追跡する仕組みは使用しません。</li>
+</ul>
+
+<h2>3. 取得する情報と利用目的</h2>
+<table>
+  <thead><tr><th>情報</th><th>内容</th><th>利用目的</th></tr></thead>
+  <tbody>
+    <tr><td>アカウント識別子</td><td>「Appleでサインイン」により発行される識別子</td><td>アカウントの作成・認証・継続利用</td></tr>
+    <tr><td>生年月日</td><td>登録時に入力（18歳以上のみ利用可）</td><td>年齢確認（未成年の利用防止）</td></tr>
+    <tr><td>プロフィール</td><td>表示名（ニックネーム）、一言、趣味タグ、任意のSNS/リンク、任意のアバター画像</td><td>プロフィールの表示・交換</td></tr>
+    <tr><td>位置情報（粗い区画）</td><td>ジオハッシュに丸めた在席情報のみ</td><td>地図での「人の気配」の表示、近接エリアの集計</td></tr>
+    <tr><td>近接交換データ</td><td>一定時間で回転する一時ID、サーバ署名付きプロフィールカード</td><td>BLE（Bluetooth）による近くの利用者の検知・カード交換</td></tr>
+    <tr><td>メッセージ（暗号文）</td><td>暗号化された本文、送受信のメタ情報</td><td>結ばれた相手との会話の中継・保管（本文は復号不可）</td></tr>
+    <tr><td>安全・運用記録</td><td>ブロック・通報の記録</td><td>迷惑行為への対応、健全な運営</td></tr>
+    <tr><td>技術情報</td><td>通信に必要な最小限の情報</td><td>不具合対応・セキュリティ・安定運用</td></tr>
+  </tbody>
+</table>
+
+<h2>4. 位置情報の取扱い</h2>
+<ul>
+  <li>位置は端末内で粗い区画（ジオハッシュ）に丸めてから送信し、正確な座標は送信しません。</li>
+  <li>在席情報は一定時間で自動的に失効します（「いま居る」表示は約5分、地図に残る最後の位置は最長約30日）。報告が途絶えれば自動的に削除されます。</li>
+  <li>個人ごとの移動の履歴（経路）は作成・保存しません。</li>
+  <li>位置情報の利用は、OSの設定からいつでも停止できます。</li>
+</ul>
+
+<h2>5. Bluetooth（近接機能）の取扱い</h2>
+<ul>
+  <li>近接機能はアプリを開いている間のみ動作し、回転する一時IDとプロフィールカードを近くの端末と交換します。広告（アドバタイズ）に氏名等の個人情報は含めません。</li>
+  <li>アプリ内のトグルまたはOS設定でBluetoothをオフにすると、検知・被検知・交換のすべてが停止します。</li>
+</ul>
+
+<h2>6. メッセージの暗号化</h2>
+<p>メッセージは送信端末で相手の公開鍵により暗号化され、受信端末でのみ復号できます。当社のサーバは暗号文のみを保管し、本文を参照できません。暗号鍵は端末内に保管されるため、アプリの再インストール等を行うと過去のメッセージを復号できなくなる場合があります。</p>
+
+<h2>7. 第三者提供・業務委託</h2>
+<p>当社は、法令に基づく場合等を除き、取得した情報を第三者に販売・提供しません。本サービスの運用のため、以下のクラウドサービスにデータの保管・処理を委託しています。</p>
+<table>
+  <thead><tr><th>委託先</th><th>用途</th></tr></thead>
+  <tbody>
+    <tr><td>Supabase</td><td>データベース・画像（アバター）の保管</td></tr>
+    <tr><td>Upstash</td><td>在席情報等の一時的な保持（インメモリ）</td></tr>
+    <tr><td>Google Cloud（Cloud Run）</td><td>アプリケーションサーバの実行</td></tr>
+    <tr><td>Apple</td><td>「Appleでサインイン」による認証</td></tr>
+  </tbody>
+</table>
+<p class="note">これらの委託先のサーバは、その提供地域により日本国外に所在する場合があります。利用者は、情報が国外で保管・処理される可能性があることに同意のうえ本サービスを利用するものとします。</p>
+
+<h2>8. データの保持期間と削除</h2>
+<ul>
+  <li>在席情報は前項のとおり一定時間で自動失効します。</li>
+  <li>アプリ内の「アカウント削除」を実行すると、プロフィール・ご縁・会話・メッセージ・ブロック等の関連データを削除します。</li>
+  <li>結ばれなかったご縁リクエストは、当日中に自動的に消滅します。</li>
+</ul>
+
+<h2>9. 安全と年齢制限</h2>
+<p>本サービスは18歳以上の方のみご利用いただけます。利用者は、他の利用者をブロックし、または迷惑行為を通報できます。通報内容は当社が確認し、必要に応じて利用停止等の措置を行います。</p>
+
+<h2>10. 利用者の権利</h2>
+<p>利用者は、当社が保有する自己の情報について、開示・訂正・利用停止・削除等を求めることができます。アプリ内で行える操作（プロフィール編集、アカウント削除等）に加え、後記のお問い合わせ先までご連絡ください。</p>
+
+<h2>11. 本ポリシーの変更</h2>
+<p>当社は、法令の変更やサービスの改善に応じて本ポリシーを変更することがあります。重要な変更を行う場合は、本サービス内または本ページでお知らせします。</p>
+
+<h2>12. お問い合わせ先</h2>
+<p>
+  株式会社NEXASPARK<br>
+  本サービスおよび本ポリシーに関するお問い合わせ：
+  <a href="mailto:support@nexaspark.org">support@nexaspark.org</a>
+</p>
+
+<p class="note" style="margin-top:2.4em">本ページは goen（ご縁）のプライバシーポリシーです。</p>
+
+</div>
+</body>
+</html>
