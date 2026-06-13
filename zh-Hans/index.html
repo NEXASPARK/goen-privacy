@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<title>隐私政策｜goen</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif;
+    line-height: 1.8; margin: 0; color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } a { color: #6db3ff; } }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 2.2em 0 0.4em; padding-top: 0.2em; border-top: 1px solid rgba(127,127,127,.25); }
+  h2:first-of-type { border-top: 0; }
+  .meta { color: #8a8a8e; font-size: .9rem; margin-bottom: 1.6em; }
+  ul { padding-left: 1.2em; }
+  li { margin: .3em 0; }
+  table { border-collapse: collapse; width: 100%; margin: .6em 0; font-size: .95rem; }
+  th, td { border: 1px solid rgba(127,127,127,.3); padding: 8px 10px; text-align: left; vertical-align: top; }
+  .note { font-size: .9rem; color: #8a8a8e; }
+  code { background: rgba(127,127,127,.15); padding: 0 .3em; border-radius: 4px; }
+  .langnav { font-size: .9rem; margin: 0 0 1.4em; }
+  .langnav a { margin: 0 .15em; }
+  .langnav span[aria-current] { font-weight: 600; color: inherit; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav class="langnav">
+  <a href="../">日本語</a> ·
+  <a href="../en/">English</a> ·
+  <span aria-current="true">简体中文</span> ·
+  <a href="../ko/">한국어</a>
+</nav>
+
+<h1>隐私政策</h1>
+<p class="meta">goen ／ 株式会社NEXASPARK<br>制定日：2026年6月12日　最后更新日：2026年6月12日</p>
+
+<p>株式会社NEXASPARK（以下简称“本公司”）就本公司提供的移动应用“goen”（以下简称“本服务”）中用户信息的处理，制定本隐私政策（以下简称“本政策”）。</p>
+
+<h2>1. 基本方针</h2>
+<p>本服务以<strong>最小必要信息</strong>提供“与恰好身处附近的人当场结缘”的体验，这是本服务设计的根基。本公司原则上不收集可直接识别本人的信息（姓名、电话号码、电子邮箱）以及精确的位置坐标。</p>
+
+<h2>2. 我们不收集的信息</h2>
+<ul>
+  <li><strong>姓名、电话号码、电子邮箱</strong>：使用“通过 Apple 登录”时，不会要求提供姓名或邮箱。</li>
+  <li><strong>精确位置坐标（经纬度）</strong>：仅发送在设备内取整为粗略区块（地理散列 geohash，约150米见方）后的数值，精确坐标不会发送或保存至设备之外。</li>
+  <li><strong>消息正文</strong>：消息在设备之间进行端到端加密。本公司的服务器及通信链路上无法解密或查看正文。</li>
+  <li><strong>用于广告与行为追踪的跟踪</strong>：不使用第三方广告 SDK，也不使用跨应用追踪用户的机制。</li>
+</ul>
+
+<h2>3. 我们收集的信息及使用目的</h2>
+<table>
+  <thead><tr><th>信息</th><th>内容</th><th>使用目的</th></tr></thead>
+  <tbody>
+    <tr><td>账户标识符</td><td>通过“通过 Apple 登录”签发的标识符</td><td>账户的创建、认证与持续使用</td></tr>
+    <tr><td>出生日期</td><td>注册时输入（仅限18周岁以上使用）</td><td>年龄确认（防止未成年人使用）</td></tr>
+    <tr><td>个人资料</td><td>显示名称（昵称）、简介、兴趣标签、可选的社交账号/链接、可选的头像图片</td><td>个人资料的显示与交换</td></tr>
+    <tr><td>位置信息（粗略区块）</td><td>仅取整为地理散列的在席信息</td><td>在地图上显示“人的气息”、统计附近区域</td></tr>
+    <tr><td>近距离交换数据</td><td>一定时间轮换的临时ID、带服务器签名的个人资料名片</td><td>通过 BLE（蓝牙）检测附近用户并交换名片</td></tr>
+    <tr><td>消息（密文）</td><td>加密后的正文、收发的元信息</td><td>结缘对象之间会话的中转与保存（正文无法解密）</td></tr>
+    <tr><td>安全・运营记录</td><td>屏蔽、举报的记录</td><td>应对骚扰行为，维持健康运营</td></tr>
+    <tr><td>技术信息</td><td>通信所需的最小信息</td><td>故障处理、安全与稳定运营</td></tr>
+  </tbody>
+</table>
+
+<h2>4. 位置信息的处理</h2>
+<ul>
+  <li>位置在设备内取整为粗略区块（地理散列）后再发送，不发送精确坐标。</li>
+  <li>在席信息会在一定时间后自动失效（“此刻所在”的显示约5分钟，地图上保留的最后位置最长约30天）。一旦报告中断，将自动删除。</li>
+  <li>不创建、不保存针对个人的移动历史（路径）。</li>
+  <li><strong>后台位置使用（可选）</strong>：若在通知设置中开启「附近有 goen 用户时」，即使未打开应用，应用也会在<strong>后台</strong>使用位置信息，以在你进入有人的区域时通知你（需要操作系统的「始终允许」）。即使在后台，也仅发送地理散列（粗略区块），绝不发送精确坐标。此为可选项，可随时在应用设置或系统设置中关闭。</li>
+  <li>可随时通过操作系统设置停止使用位置信息。</li>
+</ul>
+
+<h2>5. 蓝牙（近距离功能）的处理</h2>
+<ul>
+  <li>近距离功能仅在打开应用期间运行，与附近设备交换轮换的临时ID与个人资料名片。广播（advertise）中不包含姓名等个人信息。</li>
+  <li>通过应用内开关或操作系统设置关闭蓝牙后，检测、被检测与交换将全部停止。</li>
+</ul>
+
+<h2>6. 消息加密</h2>
+<p>消息在发送设备上使用对方的公钥加密，仅能在接收设备上解密。本公司的服务器仅保存密文，无法查看正文。由于加密密钥保存在设备内，重新安装应用等操作后，可能无法再解密过去的消息。</p>
+
+<h2>7. 向第三方提供与业务委托</h2>
+<p>除依据法律法规等情形外，本公司不会向第三方出售或提供所收集的信息。为运营本服务，本公司将数据的保存与处理委托给以下云服务。</p>
+<table>
+  <thead><tr><th>受托方</th><th>用途</th></tr></thead>
+  <tbody>
+    <tr><td>Supabase</td><td>数据库与图片（头像）的保存</td></tr>
+    <tr><td>Upstash</td><td>在席信息等的临时保持（内存）</td></tr>
+    <tr><td>Google Cloud（Cloud Run）</td><td>应用服务器的运行</td></tr>
+    <tr><td>Apple</td><td>“通过 Apple 登录”的认证</td></tr>
+  </tbody>
+</table>
+<p class="note">上述受托方的服务器，可能因其提供地区而位于日本境外。用户在同意信息可能在境外保存、处理的前提下使用本服务。</p>
+
+<h2>8. 数据的保留期限与删除</h2>
+<ul>
+  <li>在席信息如前条所述，将在一定时间后自动失效。</li>
+  <li>执行应用内的“删除账户”后，将删除个人资料、缘分、会话、消息、屏蔽等相关数据。</li>
+  <li>未结缘的缘分请求将在当天内自动消失。</li>
+</ul>
+
+<h2>9. 安全与年龄限制</h2>
+<p>本服务仅限18周岁以上人士使用。用户可屏蔽其他用户，或举报骚扰行为。本公司会确认举报内容，并根据需要采取停用等措施。</p>
+
+<h2>10. 用户的权利</h2>
+<p>用户可就本公司所持有的自身信息，要求披露、更正、停止使用、删除等。除应用内可进行的操作（编辑个人资料、删除账户等）外，请通过下方联系方式与我们联系。</p>
+
+<h2>11. 本政策的变更</h2>
+<p>本公司可能因法律变更或服务改进而变更本政策。进行重要变更时，将在本服务内或本页面予以告知。</p>
+
+<h2>12. 联系方式</h2>
+<p>
+  株式会社NEXASPARK<br>
+  关于本服务及本政策的咨询：
+  <a href="mailto:support@nexaspark.org">support@nexaspark.org</a>
+</p>
+
+<p class="note" style="margin-top:2.4em">本页面为 goen 的隐私政策。各语言译文如有歧义，以日语版本为准。</p>
+
+</div>
+</body>
+</html>

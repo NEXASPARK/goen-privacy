@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<title>Privacy Policy｜goen</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans", sans-serif;
+    line-height: 1.8; margin: 0; color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } a { color: #6db3ff; } }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 2.2em 0 0.4em; padding-top: 0.2em; border-top: 1px solid rgba(127,127,127,.25); }
+  h2:first-of-type { border-top: 0; }
+  .meta { color: #8a8a8e; font-size: .9rem; margin-bottom: 1.6em; }
+  ul { padding-left: 1.2em; }
+  li { margin: .3em 0; }
+  table { border-collapse: collapse; width: 100%; margin: .6em 0; font-size: .95rem; }
+  th, td { border: 1px solid rgba(127,127,127,.3); padding: 8px 10px; text-align: left; vertical-align: top; }
+  .note { font-size: .9rem; color: #8a8a8e; }
+  code { background: rgba(127,127,127,.15); padding: 0 .3em; border-radius: 4px; }
+  .langnav { font-size: .9rem; margin: 0 0 1.4em; }
+  .langnav a { margin: 0 .15em; }
+  .langnav span[aria-current] { font-weight: 600; color: inherit; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav class="langnav">
+  <a href="../">日本語</a> ·
+  <span aria-current="true">English</span> ·
+  <a href="../zh-Hans/">简体中文</a> ·
+  <a href="../ko/">한국어</a>
+</nav>
+
+<h1>Privacy Policy</h1>
+<p class="meta">goen ／ NEXASPARK, Inc.<br>Effective: June 12, 2026　Last updated: June 12, 2026</p>
+
+<p>NEXASPARK, Inc. ("we," "us," or "our") establishes this Privacy Policy (this "Policy") regarding the handling of users' information in the mobile app "goen" (the "Service") that we provide.</p>
+
+<h2>1. Basic Principles</h2>
+<p>The Service is designed at its core to deliver the experience of "connecting on the spot with people who happen to be nearby" using the <strong>minimum information necessary</strong>. As a rule, we do not collect information that directly identifies an individual (name, phone number, email address) or precise location coordinates.</p>
+
+<h2>2. Information We Do Not Collect</h2>
+<ul>
+  <li><strong>Name, phone number, email address</strong>: When you use "Sign in with Apple," we do not request your name or email.</li>
+  <li><strong>Precise location coordinates (latitude/longitude)</strong>: Only a value rounded on your device to a coarse cell (a geohash, roughly 150m square) is sent. Precise coordinates are never sent off the device or stored.</li>
+  <li><strong>Message content</strong>: Messages are end-to-end encrypted between devices. We cannot decrypt or view the content on our servers or in transit.</li>
+  <li><strong>Tracking for advertising or behavioral profiling</strong>: We do not use third-party advertising SDKs or any mechanism that tracks users across apps.</li>
+</ul>
+
+<h2>3. Information We Collect and Purposes of Use</h2>
+<table>
+  <thead><tr><th>Information</th><th>Details</th><th>Purpose</th></tr></thead>
+  <tbody>
+    <tr><td>Account identifier</td><td>An identifier issued through "Sign in with Apple"</td><td>Creating, authenticating, and maintaining your account</td></tr>
+    <tr><td>Date of birth</td><td>Entered at registration (available only to those aged 18+)</td><td>Age verification (preventing use by minors)</td></tr>
+    <tr><td>Profile</td><td>Display name (nickname), bio, interest tags, optional social/links, optional avatar image</td><td>Displaying and exchanging your profile</td></tr>
+    <tr><td>Location (coarse cell)</td><td>Only presence information rounded to a geohash</td><td>Showing "signs of people" on the map and aggregating nearby areas</td></tr>
+    <tr><td>Proximity exchange data</td><td>A rotating temporary ID and a server-signed profile card</td><td>Detecting nearby users and exchanging cards via BLE (Bluetooth)</td></tr>
+    <tr><td>Messages (ciphertext)</td><td>Encrypted content and send/receive metadata</td><td>Relaying and storing conversations with connected users (content cannot be decrypted)</td></tr>
+    <tr><td>Safety/operations records</td><td>Records of blocks and reports</td><td>Responding to abuse and maintaining a healthy service</td></tr>
+    <tr><td>Technical information</td><td>The minimum information necessary for communication</td><td>Troubleshooting, security, and stable operation</td></tr>
+  </tbody>
+</table>
+
+<h2>4. Handling of Location Information</h2>
+<ul>
+  <li>Location is rounded on your device to a coarse cell (a geohash) before being sent; precise coordinates are not sent.</li>
+  <li>Presence information expires automatically after a set time (the "here now" display lasts about 5 minutes; the last position shown on the map lasts up to about 30 days). If reporting stops, it is deleted automatically.</li>
+  <li>We do not create or store any individual movement history (route).</li>
+  <li><strong>Background location use (optional)</strong>: If you turn on "When someone with goen is nearby" in notification settings, the app uses location in the <strong>background</strong> to notify you when you enter an area with people, even when the app is not open (the OS "Always" permission is required). Even in the background, only a geohash (coarse cell) is sent — never your exact coordinates. This is optional and can be turned off anytime in the app's settings or your OS settings.</li>
+  <li>You can stop the use of location information at any time from your OS settings.</li>
+</ul>
+
+<h2>5. Handling of Bluetooth (Proximity Feature)</h2>
+<ul>
+  <li>The proximity feature operates only while the app is open and exchanges a rotating temporary ID and a profile card with nearby devices. The advertisement does not include personal information such as your name.</li>
+  <li>Turning Bluetooth off via the in-app toggle or your OS settings stops all detection, being detected, and exchange.</li>
+</ul>
+
+<h2>6. Message Encryption</h2>
+<p>Messages are encrypted on the sending device with the recipient's public key and can be decrypted only on the recipient's device. Our servers store only ciphertext and cannot read the content. Because encryption keys are stored on your device, reinstalling the app or similar actions may make past messages impossible to decrypt.</p>
+
+<h2>7. Provision to Third Parties and Subcontracting</h2>
+<p>Except as required by law and similar cases, we do not sell or provide collected information to third parties. To operate the Service, we entrust the storage and processing of data to the following cloud services.</p>
+<table>
+  <thead><tr><th>Provider</th><th>Use</th></tr></thead>
+  <tbody>
+    <tr><td>Supabase</td><td>Storage of the database and images (avatars)</td></tr>
+    <tr><td>Upstash</td><td>Temporary retention of presence information, etc. (in-memory)</td></tr>
+    <tr><td>Google Cloud (Cloud Run)</td><td>Running the application server</td></tr>
+    <tr><td>Apple</td><td>Authentication via "Sign in with Apple"</td></tr>
+  </tbody>
+</table>
+<p class="note">Depending on the service region, these providers' servers may be located outside Japan. By using the Service, you agree that your information may be stored and processed abroad.</p>
+
+<h2>8. Data Retention and Deletion</h2>
+<ul>
+  <li>Presence information expires automatically after a set time, as described above.</li>
+  <li>Running "Delete Account" in the app deletes related data such as your profile, Goen, conversations, messages, and blocks.</li>
+  <li>Goen requests that are not connected disappear automatically by the end of the day.</li>
+</ul>
+
+<h2>9. Safety and Age Restriction</h2>
+<p>The Service is available only to those aged 18 or older. Users can block other users or report abusive behavior. We review reported content and take measures such as suspending accounts as needed.</p>
+
+<h2>10. Your Rights</h2>
+<p>You may request the disclosure, correction, suspension of use, deletion, and so on of your own information that we hold. In addition to the actions available in the app (editing your profile, deleting your account, etc.), please contact us at the address below.</p>
+
+<h2>11. Changes to This Policy</h2>
+<p>We may change this Policy in response to changes in law or improvements to the Service. When we make material changes, we will provide notice within the Service or on this page.</p>
+
+<h2>12. Contact</h2>
+<p>
+  NEXASPARK, Inc.<br>
+  Inquiries about the Service and this Policy:
+  <a href="mailto:support@nexaspark.org">support@nexaspark.org</a>
+</p>
+
+<p class="note" style="margin-top:2.4em">This page is the Privacy Policy of goen. In the event of any discrepancy between the translations, the Japanese version shall prevail.</p>
+
+</div>
+</body>
+</html>
