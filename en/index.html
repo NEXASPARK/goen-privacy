@@ -62,7 +62,6 @@
     <tr><td>Date of birth</td><td>Entered at registration (available only to those aged 18+)</td><td>Age verification (preventing use by minors)</td></tr>
     <tr><td>Profile</td><td>Display name (nickname), bio, interest tags, optional social/links, optional avatar image</td><td>Displaying and exchanging your profile</td></tr>
     <tr><td>Location (coarse cell)</td><td>Only presence information rounded to a geohash</td><td>Showing "signs of people" on the map and aggregating nearby areas</td></tr>
-    <tr><td>Proximity exchange data</td><td>A rotating temporary ID and a server-signed profile card</td><td>Detecting nearby users and exchanging cards via BLE (Bluetooth)</td></tr>
     <tr><td>Messages (ciphertext)</td><td>Encrypted content and send/receive metadata</td><td>Relaying and storing conversations with connected users (content cannot be decrypted)</td></tr>
     <tr><td>Safety/operations records</td><td>Records of blocks and reports</td><td>Responding to abuse and maintaining a healthy service</td></tr>
     <tr><td>Technical information</td><td>The minimum information necessary for communication</td><td>Troubleshooting, security, and stable operation</td></tr>
@@ -79,10 +78,10 @@
   <li>You can stop the use of location information at any time from your OS settings.</li>
 </ul>
 
-<h2>5. Handling of Bluetooth (Proximity Feature)</h2>
+<h2>5. About Detecting People Nearby</h2>
 <ul>
-  <li>The proximity feature operates only while the app is open and exchanges a rotating temporary ID and a profile card with nearby devices. The advertisement does not include personal information such as your name.</li>
-  <li>Turning Bluetooth off via the in-app toggle or your OS settings stops all detection, being detected, and exchange.</li>
+  <li>People nearby are detected using location (a geohash), showing users within about 1 km. Exact coordinates, distance, and direction are neither used nor shown.</li>
+  <li>Turning off "Show me to people nearby" in Settings stops sending your presence and immediately removes you from the nearby list and the map.</li>
 </ul>
 
 <h2>6. Message Encryption</h2>
