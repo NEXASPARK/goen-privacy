@@ -39,7 +39,7 @@
 </nav>
 
 <h1>Privacy Policy</h1>
-<p class="meta">goen ／ NEXASPARK, Inc.<br>Effective: June 12, 2026　Last updated: June 12, 2026</p>
+<p class="meta">goen ／ NEXASPARK, Inc.<br>Effective: June 12, 2026　Last updated: July 26, 2026</p>
 
 <p>NEXASPARK, Inc. ("we," "us," or "our") establishes this Privacy Policy (this "Policy") regarding the handling of users' information in the mobile app "goen" (the "Service") that we provide.</p>
 
@@ -50,7 +50,7 @@
 <ul>
   <li><strong>Name, phone number, email address</strong>: When you use "Sign in with Apple," we do not request your name or email.</li>
   <li><strong>Precise location coordinates (latitude/longitude)</strong>: Only a value rounded on your device to a coarse cell (a geohash, roughly 150m square) is sent. Precise coordinates are never sent off the device or stored.</li>
-  <li><strong>Message content</strong>: Messages are end-to-end encrypted between devices. We cannot decrypt or view the content on our servers or in transit.</li>
+  <li><strong>One-on-one message content</strong>: One-on-one messages are end-to-end encrypted between devices. We cannot decrypt or view the content on our servers or in transit. (Posts within communities are not encrypted this way — see Section 7.)</li>
   <li><strong>Tracking for advertising or behavioral profiling</strong>: We do not use third-party advertising SDKs or any mechanism that tracks users across apps.</li>
 </ul>
 
@@ -63,6 +63,7 @@
     <tr><td>Profile</td><td>Display name (nickname), bio, interest tags, optional social/links, optional avatar image</td><td>Displaying and exchanging your profile</td></tr>
     <tr><td>Location (coarse cell)</td><td>Only presence information rounded to a geohash</td><td>Showing "signs of people" on the map and aggregating nearby areas</td></tr>
     <tr><td>Messages (ciphertext)</td><td>Encrypted content and send/receive metadata</td><td>Relaying and storing conversations with connected users (content cannot be decrypted)</td></tr>
+    <tr><td>Community information</td><td>Communities you have joined, your optional roster name within a community, timeline posts (text and optional image), and reactions</td><td>Displaying the community roster and timeline; responding to reports (moderation)</td></tr>
     <tr><td>Safety/operations records</td><td>Records of blocks and reports</td><td>Responding to abuse and maintaining a healthy service</td></tr>
     <tr><td>Technical information</td><td>The minimum information necessary for communication</td><td>Troubleshooting, security, and stable operation</td></tr>
   </tbody>
@@ -87,12 +88,20 @@
 <h2>6. Message Encryption</h2>
 <p>Messages are encrypted on the sending device with the recipient's public key and can be decrypted only on the recipient's device. Our servers store only ciphertext and cannot read the content. Because encryption keys are stored on your device, reinstalling the app or similar actions may make past messages impossible to decrypt.</p>
 
-<h2>7. Provision to Third Parties and Subcontracting</h2>
+<h2>7. Community Features</h2>
+<ul>
+  <li>Communities are invite-only. Only members of a community can view its roster and timeline.</li>
+  <li><strong>Roster name (optional)</strong>: You may set a name (such as your real name) that is shown only within a community. It is visible to the members of that community. Setting it is optional, and you can change or remove it at any time.</li>
+  <li><strong>Timeline posts are not end-to-end encrypted</strong>: Unlike one-on-one messages, posts within a community (text and images) and reactions are stored on our servers without end-to-end encryption. This is necessary for sharing among multiple members and for us to review reported content and take action (moderation). They can be viewed only by the community's members and by us solely for operational purposes such as handling reports.</li>
+  <li>Posts can be deleted by their author or by the community's administrators. When a community is deleted or you delete your account, the roster entries, posts, and reactions are deleted as well.</li>
+</ul>
+
+<h2>8. Provision to Third Parties and Subcontracting</h2>
 <p>Except as required by law and similar cases, we do not sell or provide collected information to third parties. To operate the Service, we entrust the storage and processing of data to the following cloud services.</p>
 <table>
   <thead><tr><th>Provider</th><th>Use</th></tr></thead>
   <tbody>
-    <tr><td>Supabase</td><td>Storage of the database and images (avatars)</td></tr>
+    <tr><td>Supabase</td><td>Storage of the database and images (avatars and community posts)</td></tr>
     <tr><td>Upstash</td><td>Temporary retention of presence information, etc. (in-memory)</td></tr>
     <tr><td>Google Cloud (Cloud Run)</td><td>Running the application server</td></tr>
     <tr><td>Apple</td><td>Authentication via "Sign in with Apple"</td></tr>
@@ -100,23 +109,23 @@
 </table>
 <p class="note">Depending on the service region, these providers' servers may be located outside Japan. By using the Service, you agree that your information may be stored and processed abroad.</p>
 
-<h2>8. Data Retention and Deletion</h2>
+<h2>9. Data Retention and Deletion</h2>
 <ul>
-  <li>Presence information expires automatically after a set time, as described above.</li>
-  <li>Running "Delete Account" in the app deletes related data such as your profile, Goen, conversations, messages, and blocks.</li>
+  <li>Presence information expires automatically after a set time, as described in Section 4.</li>
+  <li>Running "Delete Account" in the app deletes related data such as your profile, Goen, conversations, messages, community data (memberships, roster names, posts, and reactions), and blocks.</li>
   <li>Goen requests that are not connected disappear automatically by the end of the day.</li>
 </ul>
 
-<h2>9. Safety and Age Restriction</h2>
+<h2>10. Safety and Age Restriction</h2>
 <p>The Service is available only to those aged 18 or older. Users can block other users or report abusive behavior. We review reported content and take measures such as suspending accounts as needed.</p>
 
-<h2>10. Your Rights</h2>
+<h2>11. Your Rights</h2>
 <p>You may request the disclosure, correction, suspension of use, deletion, and so on of your own information that we hold. In addition to the actions available in the app (editing your profile, deleting your account, etc.), please contact us at the address below.</p>
 
-<h2>11. Changes to This Policy</h2>
+<h2>12. Changes to This Policy</h2>
 <p>We may change this Policy in response to changes in law or improvements to the Service. When we make material changes, we will provide notice within the Service or on this page.</p>
 
-<h2>12. Contact</h2>
+<h2>13. Contact</h2>
 <p>
   NEXASPARK, Inc.<br>
   Inquiries about the Service and this Policy:
